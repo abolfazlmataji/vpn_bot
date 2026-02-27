@@ -68,7 +68,7 @@ def plan_page(code):
 # ---------- استارت ----------
 async def start(update:Update,context:ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "⚡ به فروشگاه VPN خوش آمدید",
+        "⚡ به فروشگاه VPN سلام ابوالفضل هستم خوش آمدید ",
         reply_markup=main_menu()
     )
 
